@@ -1,0 +1,27 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html,body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 300px;;
+}
+.burgerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.burgerdiv{
+    width: 300px;;
+}
