@@ -12,6 +12,10 @@ const orm = {
     update: function (id, cb) {
         const query = `UPDATE burger SET eaten = true WHERE id = ${id}`;
         connection.query(query, cb)
+    },
+    updateNote: function (note, id, cb) {
+        const query = `UPDATE burger SET note = '${note}' WHERE id = ${id}`
+        connection.query(query, cb)
     }
 }
 
